@@ -6,8 +6,7 @@ import SearchBox from './components/search-box/search-box.component';
 import './App.css';
 
 const App = () => {
-  const [searchField, setSearchField] = useState('');
-  const [title, setTitle] = useState('');
+  const [searchField, setSearchField] = useState('');/
   const [monsters, setMonsters] = useState([]);
   const [filteredMonsters, setFilteredMonsters] = useState(monsters);
 
@@ -36,7 +35,7 @@ const App = () => {
   return(
     <div className="App">
        
-        <h1 className='app-title'>Monsters Roledex</h1>
+        <h1 className='app-title'>Monsters Roledex changed</h1>
 
         <SearchBox 
           className = 'search-monsters'
